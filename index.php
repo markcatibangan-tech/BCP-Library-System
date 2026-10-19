@@ -24,7 +24,6 @@ session_start();
             <a href="login.php" class="btn btn-primary py-3 fw-bold">
                 <i class="fas fa-user-graduate me-2"></i> Student Portal (Login / Register)
             </a>
-            <a href="admin.php" class="btn btn-dark py-3 fw-bold">
                 <i class="fas fa-user-shield me-2"></i> Admin & Librarian Portal
             </a>
         </div>
