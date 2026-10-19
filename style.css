@@ -1,0 +1,68 @@
+/* Bestlink College of the Philippines Visual Identity Theme */
+:root {
+    --bcp-blue: #003366;
+    --bcp-blue-hover: #002244;
+    --bcp-gold: #ffc107;
+    --bcp-light: #f4f6f9;
+}
+
+body {
+    background-color: var(--bcp-light);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Header & Navbar Styling */
+.bcp-header {
+    background-color: var(--bcp-blue);
+    border-bottom: 4px solid var(--bcp-gold);
+    color: #ffffff;
+}
+
+.bcp-logo-title {
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+.bcp-tagline {
+    font-size: 0.85rem;
+    color: var(--bcp-gold);
+    font-style: italic;
+}
+
+/* Card & Container Aesthetics */
+.bcp-card {
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.bcp-card-header {
+    background-color: var(--bcp-blue);
+    color: #ffffff;
+    font-weight: 600;
+    border-top-left-radius: 8px !important;
+    border-top-right-radius: 8px !important;
+}
+
+/* Custom Buttons */
+.btn-bcp-primary {
+    background-color: var(--bcp-blue);
+    color: #ffffff;
+    border: none;
+}   
+
+.btn-bcp-primary:hover {
+    background-color: var(--bcp-blue-hover);
+    color: #ffffff;
+}
+
+.btn-bcp-gold {
+    background-color: var(--bcp-gold);
+    color: #000000;
+    font-weight: 600;
+    border: none;
+}
+
+.btn-bcp-gold:hover {
+    background-color: #e0a800;
+}
